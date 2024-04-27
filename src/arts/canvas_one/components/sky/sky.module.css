@@ -1,0 +1,12 @@
+.container {
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+}
+
+.sky {
+  height: 500px;
+  width: 600px;
+  background-color: #154aad;
+  clip-path: circle(300px at 50% 75%);
+}

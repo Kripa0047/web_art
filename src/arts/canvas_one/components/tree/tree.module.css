@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+}
+
+.level {
+  margin: 30px;
+  position: absolute;
+}
+
+.level_1,
+.level_2 {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  margin: 1em auto;
+  background-image: radial-gradient(
+    circle at 98% 5px,
+    transparent 0%,
+    transparent 100px,
+    rgb(13, 29, 47) 100px
+  );
+  left: 50px;
+}
+
+.level_2 {
+  transform: scaleX(-1);
+  left: -50px;
+}

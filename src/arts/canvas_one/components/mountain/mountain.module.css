@@ -1,0 +1,37 @@
+.container {
+  height: 250px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mountain,
+.shadow {
+  position: absolute;
+  top: 70px;
+  border-radius: 10% 90% 68% 32% / 11% 43% 57% 89%;
+  background-color: rgb(45, 76, 123);
+  width: 400px;
+  height: 400px;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.shadow {
+  background-color: rgb(30, 55, 93);
+  border-radius: 5% 95% 18% 82% / 7% 88% 12% 93%;
+  transform: rotate(-121deg) scale(0.8);
+  width: 288px;
+  height: 306px;
+  top: -200px;
+  left: -51px;
+}
+.shadow_2 {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  transform: rotate(-68deg);
+  background-color: rgb(30, 55, 93);
+  left: 125px;
+  top: -108px;
+}

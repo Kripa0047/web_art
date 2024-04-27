@@ -1,0 +1,43 @@
+.river {
+  width: 550px;
+  position: relative;
+}
+
+.layer,
+.anti_layer {
+  position: absolute;
+}
+
+.wave,
+.cave_wave {
+  position: absolute;
+  height: 20px;
+  background: #1a5bb1;
+  border-radius: 11px;
+}
+
+.cave_wave {
+  border-radius: 0;
+  width: 100%;
+}
+
+.anti_wave {
+  position: absolute;
+}
+
+.cover_1,
+.cover_2 {
+  background-color: #3a80b9;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+
+.cover_1 {
+  border-radius: 0 10px 10px 0;
+}
+
+.cover_2 {
+  border-radius: 10px 0 0 10px;
+  right: 0;
+}

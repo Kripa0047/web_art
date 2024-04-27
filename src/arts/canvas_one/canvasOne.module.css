@@ -1,0 +1,21 @@
+.container {
+  background-color: #3a80b9;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+}
+
+.canvas {
+  margin: auto;
+}
+
+.land {
+  width: 650px;
+  height: 50px;
+  background-color: #113874;
+  left: 50%;
+  top: 500px;
+  transform: translateX(-50%);
+  border-radius: 30px;
+}

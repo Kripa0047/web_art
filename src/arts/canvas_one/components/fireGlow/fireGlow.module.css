@@ -1,0 +1,17 @@
+.glow_one,
+.glow_two,
+.glow_three {
+  padding: 35px;
+  border-radius: 50%;
+  background-color: #1c90c198;
+}
+
+.glow_two {
+  padding: 20px;
+  background-color: rgba(45, 168, 220, 0.24);
+}
+
+.glow_three {
+  padding: 20px;
+  background-color: rgba(45, 168, 220, 0.124);
+}

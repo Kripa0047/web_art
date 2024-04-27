@@ -1,0 +1,40 @@
+.moon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.shine_one {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: #2667b2c0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.shine_two {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: #2667b27e;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.shine_three {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #2667b27e;
+  position: relative;
+}

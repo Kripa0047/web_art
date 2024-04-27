@@ -1,0 +1,128 @@
+.container {
+  position: relative;
+  transform: scaleX(0.423) scaleY(0.504);
+}
+
+.shade_back,
+.shade_front {
+  position: absolute;
+  clip-path: polygon(88.4% 0%, 100% 0%, 11.2% 100%, 0% 100%);
+  background-color: #ff7f00;
+  width: 250px;
+  height: 220px;
+  top: 0;
+}
+
+.shade_front {
+  clip-path: polygon(0% 0%, 59.1% 0%, 100% 100%, 39.9% 100%);
+  background-color: #ffc100;
+  left: 221px;
+  width: 470px;
+}
+
+.shade_front_shadow {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-color: #ffcc3c;
+  border-radius: 50%;
+  left: -121px;
+  top: -200px;
+}
+
+.front_wall {
+  position: absolute;
+  clip-path: polygon(0% 0%, 31.4% 0, 100% 53.9%, 31% 100%, 0% 100%);
+  width: 295px;
+  height: 381px;
+  background-color: #ffa902;
+  transform: rotate(-90deg);
+  top: -28.5px;
+  left: 71px;
+}
+
+.side_wall {
+  width: 263px;
+  height: 100px;
+  background-color: #ff7f00;
+  position: absolute;
+  top: 209.5px;
+  left: 408px;
+}
+
+.side_wall_shadow {
+  width: 263px;
+  height: 35px;
+  position: absolute;
+  background-color: #ff6701;
+}
+
+.level,
+.level_inner {
+  position: absolute;
+  top: 111px;
+  left: 80px;
+}
+
+.level_1,
+.level_2,
+.level_inner_1,
+.level_inner_2 {
+  position: absolute;
+  width: 187px;
+  height: 183px;
+  margin: 1em auto;
+  background-image: radial-gradient(
+    circle at 117% 19px,
+    transparent 0%,
+    transparent 220px,
+    #ffc100 0px
+  );
+  left: 137px;
+}
+
+.level_2,
+.level_inner_2 {
+  transform: scaleX(-1);
+  left: -50px;
+}
+
+.level_inner_1,
+.level_inner_2 {
+  width: 285px;
+  height: 183px;
+  background-image: radial-gradient(
+    circle at 99% 22px,
+    transparent 0%,
+    transparent 283px,
+    #ff6701 0px
+  );
+}
+
+.level_inner_2 {
+  left: -148px;
+}
+
+.rope_front_right,
+.rope_front_left,
+.rope_back {
+  clip-path: polygon(0% 0%, 2.3% 0%, 51.4% 100%, 49% 100%);
+  width: 207px;
+  height: 110px;
+  background-color: #6b4c2a;
+  position: absolute;
+  left: 685px;
+  top: 220px;
+}
+
+.rope_front_left {
+  left: 408px;
+}
+
+.rope_back {
+  left: -142px;
+  top: 220px;
+  transform: scaleX(-1);
+  width: 146px;
+  height: 80px;
+}

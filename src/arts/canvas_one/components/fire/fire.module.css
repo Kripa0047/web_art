@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+
+.flame {
+  position: absolute;
+}
+
+.wood {
+  position: absolute;
+  height: 14px;
+  width: 80px;
+  background-color: rgb(8, 34, 57);
+  border-radius: 10px;
+  left: 87px;
+  bottom: -24px;
+}
+
+.sparks {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fea700;
+}

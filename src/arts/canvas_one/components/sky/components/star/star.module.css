@@ -1,0 +1,38 @@
+.container {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+}
+
+.circle_1,
+.circle_2,
+.circle_3,
+.circle_4 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: rgb(45, 42, 40);
+  border-radius: 50%;
+}
+
+.circle_1 {
+    top: -7.5px;
+    left: 7.5px;
+}
+
+.circle_2 {
+    top: 7.5px;
+    left: -7.5px;
+}
+
+.circle_3 {
+    top: -7.5px;
+    left: -7.5px;
+}
+
+.circle_4 {
+    top: 7.5px;
+    left: 7.5px;
+}
